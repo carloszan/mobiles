@@ -1,4 +1,9 @@
 import React from 'react';
-import {Text} from 'react-native';
+import {NavigationContainer} from '@react-navigation/native';
+import MainStack from './src/navigators/MainStack';
 
-export default () => <Text>First commit</Text>;
+export default () => (
+  <NavigationContainer>
+    <MainStack />
+  </NavigationContainer>
+);
