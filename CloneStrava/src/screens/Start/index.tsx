@@ -1,4 +1,4 @@
 import React from 'react';
 import {Text} from 'react-native';
 
-export default () => <Text>Explorer</Text>;
+export default () => <Text>Start</Text>;
