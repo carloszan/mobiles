@@ -1,4 +1,6 @@
 import React from 'react';
-import {Text} from 'react-native';
+import TopBar from '../../components/TopBar';
 
-export default () => <Text>Start</Text>;
+export default () => {
+  return <TopBar />;
+};
