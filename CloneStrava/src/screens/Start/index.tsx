@@ -1,6 +1,11 @@
 import React from 'react';
 import TopBar from '../../components/TopBar';
+import {Container} from './styles';
 
 export default () => {
-  return <TopBar />;
+  return (
+    <Container>
+      <TopBar />
+    </Container>
+  );
 };
