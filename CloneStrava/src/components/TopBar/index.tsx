@@ -1,23 +1,31 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
-
-const styles = StyleSheet.create({
-  container: {
-    alignSelf: 'stretch',
-    height: 52,
-    flexDirection: 'row',
-    backgroundColor: '#fc5101',
-    alignItems: 'center',
-    justifyContent: 'space-between',
-    paddingLeft: 10,
-    paddingRight: 10,
-  },
-});
+import {
+  Container,
+  StartContent,
+  StartTitle,
+  RightView,
+  TopTabButton,
+} from './styles';
+import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 
 export default () => (
-  <View style={styles.container}>
-    <Text>Left</Text>
-    <Text>TopBar</Text>
-    <Text>Right</Text>
-  </View>
+  <Container>
+    <StartContent>
+      <StartTitle>Start</StartTitle>
+    </StartContent>
+
+    <RightView>
+      <TopTabButton>
+        <MaterialIcons name="group" color="#FFF" size={32} />
+      </TopTabButton>
+
+      <TopTabButton>
+        <MaterialIcons name="settings" color="#FFF" size={32} />
+      </TopTabButton>
+
+      <TopTabButton>
+        <MaterialIcons name="notifications" color="#FFF" size={32} />
+      </TopTabButton>
+    </RightView>
+  </Container>
 );
