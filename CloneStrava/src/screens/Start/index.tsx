@@ -8,6 +8,7 @@ const data: ActivityModel[] = [
   {
     id: 1,
     username: 'Carlos',
+    type: 'bike',
     city: 'Sao Joao del Rei, Minas Gerais',
     date: new Date(Date.now()),
     description: 'Só pra saber a distancia 1',
@@ -18,6 +19,7 @@ const data: ActivityModel[] = [
   {
     id: 2,
     username: 'Carlos',
+    type: 'bike',
     city: 'Sao Joao del Rei, Minas Gerais',
     date: new Date(Date.now() - 1000000000),
     description: 'Só pra saber a distancia 2',
