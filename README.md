@@ -1,2 +1,2 @@
 # mobiles
-some projects wrote in react native
+some projects written in react native
